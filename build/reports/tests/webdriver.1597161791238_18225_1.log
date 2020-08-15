@@ -1,0 +1,315 @@
+[1597161796.364][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 27020
+[1597161796.365][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597161796.608][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597161796.609][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597161796.609][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597161796.610][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/nw/1tpsl9sd4dn4yx87qmrmbrv00000gn/T/.com.google.Chrome.PWZNjM data:,
+[1597161797.728][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597161797.750][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597161797.920][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.105",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/nw/1tpsl9sd4dn4yx87qmrmbrv00000gn/T/.com.google.Chrome.PWZNjM"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50728"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "e8b8e1818dc1e2e589b8eefe84592f2e"
+}
+[1597161798.050][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND MaximizeWindow {
+
+}
+[1597161798.050][INFO]: Waiting for pending navigations...
+[1597161798.051][INFO]: Done waiting for pending navigations. Status: ok
+[1597161798.178][INFO]: Waiting for pending navigations...
+[1597161798.179][INFO]: Done waiting for pending navigations. Status: ok
+[1597161798.179][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE MaximizeWindow {
+   "height": 877,
+   "width": 1440,
+   "x": 0,
+   "y": 23
+}
+[1597161798.192][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND Navigate {
+   "url": "https://1a.lv"
+}
+[1597161798.192][INFO]: Waiting for pending navigations...
+[1597161798.193][INFO]: Done waiting for pending navigations. Status: ok
+[1597161798.806][INFO]: Waiting for pending navigations...
+[1597161800.668][INFO]: Done waiting for pending navigations. Status: ok
+[1597161800.668][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE Navigate
+[1597161800.764][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161800.764][INFO]: Waiting for pending navigations...
+[1597161800.776][INFO]: Done waiting for pending navigations. Status: ok
+[1597161800.810][INFO]: Waiting for pending navigations...
+[1597161800.811][INFO]: Done waiting for pending navigations. Status: ok
+[1597161800.811][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161801.046][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161801.092][INFO]: Waiting for pending navigations...
+[1597161802.078][INFO]: Done waiting for pending navigations. Status: ok
+[1597161802.107][INFO]: Waiting for pending navigations...
+[1597161802.132][INFO]: Done waiting for pending navigations. Status: ok
+[1597161802.132][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161802.340][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161802.340][INFO]: Waiting for pending navigations...
+[1597161802.405][INFO]: Done waiting for pending navigations. Status: ok
+[1597161802.419][INFO]: Waiting for pending navigations...
+[1597161802.420][INFO]: Done waiting for pending navigations. Status: ok
+[1597161802.420][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161802.628][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161802.628][INFO]: Waiting for pending navigations...
+[1597161802.628][INFO]: Done waiting for pending navigations. Status: ok
+[1597161802.632][INFO]: Waiting for pending navigations...
+[1597161802.633][INFO]: Done waiting for pending navigations. Status: ok
+[1597161802.633][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161802.844][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161802.844][INFO]: Waiting for pending navigations...
+[1597161802.845][INFO]: Done waiting for pending navigations. Status: ok
+[1597161802.849][INFO]: Waiting for pending navigations...
+[1597161802.850][INFO]: Done waiting for pending navigations. Status: ok
+[1597161802.850][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161803.062][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161803.062][INFO]: Waiting for pending navigations...
+[1597161803.063][INFO]: Done waiting for pending navigations. Status: ok
+[1597161803.070][INFO]: Waiting for pending navigations...
+[1597161803.071][INFO]: Done waiting for pending navigations. Status: ok
+[1597161803.071][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161803.278][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161803.278][INFO]: Waiting for pending navigations...
+[1597161803.279][INFO]: Done waiting for pending navigations. Status: ok
+[1597161803.284][INFO]: Waiting for pending navigations...
+[1597161803.285][INFO]: Done waiting for pending navigations. Status: ok
+[1597161803.285][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161803.494][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161803.494][INFO]: Waiting for pending navigations...
+[1597161803.497][INFO]: Done waiting for pending navigations. Status: ok
+[1597161803.502][INFO]: Waiting for pending navigations...
+[1597161803.503][INFO]: Done waiting for pending navigations. Status: ok
+[1597161803.503][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161803.711][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161803.711][INFO]: Waiting for pending navigations...
+[1597161803.711][INFO]: Done waiting for pending navigations. Status: ok
+[1597161803.717][INFO]: Waiting for pending navigations...
+[1597161803.718][INFO]: Done waiting for pending navigations. Status: ok
+[1597161803.718][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161803.927][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161803.927][INFO]: Waiting for pending navigations...
+[1597161803.928][INFO]: Done waiting for pending navigations. Status: ok
+[1597161803.934][INFO]: Waiting for pending navigations...
+[1597161803.935][INFO]: Done waiting for pending navigations. Status: ok
+[1597161803.935][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161804.145][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161804.145][INFO]: Waiting for pending navigations...
+[1597161804.146][INFO]: Done waiting for pending navigations. Status: ok
+[1597161804.154][INFO]: Waiting for pending navigations...
+[1597161804.155][INFO]: Done waiting for pending navigations. Status: ok
+[1597161804.155][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161804.366][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161804.366][INFO]: Waiting for pending navigations...
+[1597161804.367][INFO]: Done waiting for pending navigations. Status: ok
+[1597161804.372][INFO]: Waiting for pending navigations...
+[1597161804.373][INFO]: Done waiting for pending navigations. Status: ok
+[1597161804.373][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161804.582][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input\\.sn\\-suggest\\-input\\.autocomplete\\.main\\-search\\-input"
+}
+[1597161804.582][INFO]: Waiting for pending navigations...
+[1597161804.584][INFO]: Done waiting for pending navigations. Status: ok
+[1597161804.588][INFO]: Waiting for pending navigations...
+[1597161804.588][INFO]: Done waiting for pending navigations. Status: ok
+[1597161804.588][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".input\.sn\-suggest\-input\.autocomplete\.main\-search\-input"}
+  (Session info: chrome=84.0.4147.105)
+[1597161804.812][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597161804.812][INFO]: Waiting for pending navigations...
+[1597161804.830][INFO]: Done waiting for pending navigations. Status: ok
+[1597161804.898][INFO]: Waiting for pending navigations...
+[1597161804.898][INFO]: Done waiting for pending navigations. Status: ok
+[1597161804.898][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE ExecuteScript "\u003Chtml default-lang=\"lv\" lang=\"lv\" class=\" no-touch\">\u003Chead>\n\u003Cmeta theme=\"1a\">\n\u003Cmeta charset=\"utf-8\">\n\u003Cmeta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\">\n\u003Cscript type=\"text/javascript\" src=\"https:/..."
+[1597161805.056][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND Screenshot {
+
+}
+[1597161805.056][INFO]: Waiting for pending navigations...
+[1597161805.065][INFO]: Done waiting for pending navigations. Status: ok
+[1597161805.825][INFO]: Waiting for pending navigations...
+[1597161805.831][INFO]: Done waiting for pending navigations. Status: ok
+[1597161805.832][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAC0AAAAY8CAYAAACWeA4aAAABLGlDQ1BTa2lhAAAokX2Ru0oDQRSGP4ONF1BQMYXFlmm8JJFVQYts1CB2iUK022yWICZx2axora34BoKVha2tD5BesRKs7AXBdv0nKTYg8RzmzDf/mduZgVQaWWoaWu0oLJccq3p0bDFgrtcJGG4j8..."
+[1597161806.100][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] COMMAND Quit {
+
+}
+[1597161806.309][INFO]: [e8b8e1818dc1e2e589b8eefe84592f2e] RESPONSE Quit

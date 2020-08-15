@@ -1,0 +1,501 @@
+[1597162427.547][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 46770
+[1597162427.547][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597162427.764][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597162427.765][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597162427.765][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597162427.765][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/nw/1tpsl9sd4dn4yx87qmrmbrv00000gn/T/.com.google.Chrome.TVMUW9 data:,
+[1597162428.545][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597162428.551][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597162428.734][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.105",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/nw/1tpsl9sd4dn4yx87qmrmbrv00000gn/T/.com.google.Chrome.TVMUW9"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53716"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "86eb5c36b1441cfe9fc882753d9dd653"
+}
+[1597162428.842][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND MaximizeWindow {
+
+}
+[1597162428.842][INFO]: Waiting for pending navigations...
+[1597162428.843][INFO]: Done waiting for pending navigations. Status: ok
+[1597162428.987][INFO]: Waiting for pending navigations...
+[1597162428.987][INFO]: Done waiting for pending navigations. Status: ok
+[1597162428.987][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE MaximizeWindow {
+   "height": 877,
+   "width": 1440,
+   "x": 0,
+   "y": 23
+}
+[1597162428.997][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND Navigate {
+   "url": "https://1a.lv"
+}
+[1597162428.997][INFO]: Waiting for pending navigations...
+[1597162428.999][INFO]: Done waiting for pending navigations. Status: ok
+[1597162429.642][INFO]: Waiting for pending navigations...
+[1597162431.682][INFO]: Done waiting for pending navigations. Status: ok
+[1597162431.682][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE Navigate
+[1597162431.790][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"top-search-form\"]/div/div[1]/span/input[1]"
+}
+[1597162431.858][INFO]: Waiting for pending navigations...
+[1597162432.874][INFO]: Done waiting for pending navigations. Status: ok
+[1597162432.903][INFO]: Waiting for pending navigations...
+[1597162433.020][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.020][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162433.080][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597162433.080][INFO]: Waiting for pending navigations...
+[1597162433.135][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.214][INFO]: Waiting for pending navigations...
+[1597162433.220][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.220][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ExecuteScript true
+[1597162433.231][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ClearElement {
+   "id": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162433.231][INFO]: Waiting for pending navigations...
+[1597162433.231][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.251][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1597162433.267][INFO]: Waiting for pending navigations...
+[1597162433.268][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.268][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ClearElement ERROR invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=84.0.4147.105)
+[1597162433.513][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"top-search-form\"]/div/div[1]/span/input[1]"
+}
+[1597162433.513][INFO]: Waiting for pending navigations...
+[1597162433.516][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.527][INFO]: Waiting for pending navigations...
+[1597162433.528][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.528][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162433.542][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597162433.542][INFO]: Waiting for pending navigations...
+[1597162433.543][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.554][INFO]: Waiting for pending navigations...
+[1597162433.555][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.555][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ExecuteScript true
+[1597162433.559][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ClearElement {
+   "id": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162433.559][INFO]: Waiting for pending navigations...
+[1597162433.559][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.573][INFO]: Waiting for pending navigations...
+[1597162433.574][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.574][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ClearElement ERROR invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=84.0.4147.105)
+[1597162433.784][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"top-search-form\"]/div/div[1]/span/input[1]"
+}
+[1597162433.785][INFO]: Waiting for pending navigations...
+[1597162433.787][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.794][INFO]: Waiting for pending navigations...
+[1597162433.801][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.801][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162433.841][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597162433.841][INFO]: Waiting for pending navigations...
+[1597162433.842][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.847][INFO]: Waiting for pending navigations...
+[1597162433.848][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.848][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ExecuteScript true
+[1597162433.852][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ClearElement {
+   "id": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162433.852][INFO]: Waiting for pending navigations...
+[1597162433.853][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.868][INFO]: Waiting for pending navigations...
+[1597162433.869][INFO]: Done waiting for pending navigations. Status: ok
+[1597162433.869][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ClearElement ERROR invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=84.0.4147.105)
+[1597162434.077][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"top-search-form\"]/div/div[1]/span/input[1]"
+}
+[1597162434.077][INFO]: Waiting for pending navigations...
+[1597162434.096][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.102][INFO]: Waiting for pending navigations...
+[1597162434.102][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.102][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162434.115][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597162434.115][INFO]: Waiting for pending navigations...
+[1597162434.116][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.121][INFO]: Waiting for pending navigations...
+[1597162434.122][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.122][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ExecuteScript true
+[1597162434.126][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ClearElement {
+   "id": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162434.126][INFO]: Waiting for pending navigations...
+[1597162434.127][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.141][INFO]: Waiting for pending navigations...
+[1597162434.141][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.141][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ClearElement ERROR invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=84.0.4147.105)
+[1597162434.352][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"top-search-form\"]/div/div[1]/span/input[1]"
+}
+[1597162434.352][INFO]: Waiting for pending navigations...
+[1597162434.353][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.363][INFO]: Waiting for pending navigations...
+[1597162434.365][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.365][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162434.377][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597162434.377][INFO]: Waiting for pending navigations...
+[1597162434.382][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.387][INFO]: Waiting for pending navigations...
+[1597162434.388][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.389][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ExecuteScript true
+[1597162434.396][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ClearElement {
+   "id": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162434.396][INFO]: Waiting for pending navigations...
+[1597162434.397][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.416][INFO]: Waiting for pending navigations...
+[1597162434.417][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.417][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ClearElement ERROR invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=84.0.4147.105)
+[1597162434.624][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"top-search-form\"]/div/div[1]/span/input[1]"
+}
+[1597162434.624][INFO]: Waiting for pending navigations...
+[1597162434.625][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.632][INFO]: Waiting for pending navigations...
+[1597162434.633][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.633][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162434.640][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597162434.641][INFO]: Waiting for pending navigations...
+[1597162434.641][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.645][INFO]: Waiting for pending navigations...
+[1597162434.646][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.646][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ExecuteScript true
+[1597162434.650][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ClearElement {
+   "id": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162434.650][INFO]: Waiting for pending navigations...
+[1597162434.651][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.669][INFO]: Waiting for pending navigations...
+[1597162434.669][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.669][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ClearElement ERROR invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=84.0.4147.105)
+[1597162434.875][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"top-search-form\"]/div/div[1]/span/input[1]"
+}
+[1597162434.875][INFO]: Waiting for pending navigations...
+[1597162434.876][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.884][INFO]: Waiting for pending navigations...
+[1597162434.885][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.885][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162434.895][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597162434.895][INFO]: Waiting for pending navigations...
+[1597162434.898][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.903][INFO]: Waiting for pending navigations...
+[1597162434.903][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.903][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ExecuteScript true
+[1597162434.907][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ClearElement {
+   "id": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162434.907][INFO]: Waiting for pending navigations...
+[1597162434.908][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.923][INFO]: Waiting for pending navigations...
+[1597162434.924][INFO]: Done waiting for pending navigations. Status: ok
+[1597162434.924][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ClearElement ERROR invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=84.0.4147.105)
+[1597162435.133][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"top-search-form\"]/div/div[1]/span/input[1]"
+}
+[1597162435.139][INFO]: Waiting for pending navigations...
+[1597162435.139][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.146][INFO]: Waiting for pending navigations...
+[1597162435.147][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.148][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162435.157][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597162435.157][INFO]: Waiting for pending navigations...
+[1597162435.159][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.163][INFO]: Waiting for pending navigations...
+[1597162435.164][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.164][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ExecuteScript true
+[1597162435.168][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ClearElement {
+   "id": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162435.168][INFO]: Waiting for pending navigations...
+[1597162435.168][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.180][INFO]: Waiting for pending navigations...
+[1597162435.181][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.181][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ClearElement ERROR invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=84.0.4147.105)
+[1597162435.388][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"top-search-form\"]/div/div[1]/span/input[1]"
+}
+[1597162435.388][INFO]: Waiting for pending navigations...
+[1597162435.389][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.396][INFO]: Waiting for pending navigations...
+[1597162435.396][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.396][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162435.404][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597162435.404][INFO]: Waiting for pending navigations...
+[1597162435.405][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.410][INFO]: Waiting for pending navigations...
+[1597162435.411][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.411][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ExecuteScript true
+[1597162435.415][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ClearElement {
+   "id": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162435.415][INFO]: Waiting for pending navigations...
+[1597162435.416][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.432][INFO]: Waiting for pending navigations...
+[1597162435.433][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.434][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ClearElement ERROR invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=84.0.4147.105)
+[1597162435.648][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"top-search-form\"]/div/div[1]/span/input[1]"
+}
+[1597162435.654][INFO]: Waiting for pending navigations...
+[1597162435.669][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.679][INFO]: Waiting for pending navigations...
+[1597162435.681][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.681][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162435.696][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f23f01a4-4273-452a-be69-b572d4d033f7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597162435.696][INFO]: Waiting for pending navigations...
+[1597162435.696][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.701][INFO]: Waiting for pending navigations...
+[1597162435.702][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.702][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ExecuteScript true
+[1597162435.705][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ClearElement {
+   "id": "f23f01a4-4273-452a-be69-b572d4d033f7"
+}
+[1597162435.705][INFO]: Waiting for pending navigations...
+[1597162435.706][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.718][INFO]: Waiting for pending navigations...
+[1597162435.718][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.718][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ClearElement ERROR invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=84.0.4147.105)
+[1597162435.934][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597162435.934][INFO]: Waiting for pending navigations...
+[1597162435.936][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.986][INFO]: Waiting for pending navigations...
+[1597162435.987][INFO]: Done waiting for pending navigations. Status: ok
+[1597162435.987][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE ExecuteScript "\u003Chtml default-lang=\"lv\" lang=\"lv\" class=\" no-touch\">\u003Chead>\n\u003Cmeta theme=\"1a\">\n\u003Cmeta charset=\"utf-8\">\n\u003Cmeta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\">\n\u003Cscript type=\"text/javascript\" src=\"https:/..."
+[1597162436.126][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND Screenshot {
+
+}
+[1597162436.126][INFO]: Waiting for pending navigations...
+[1597162436.127][INFO]: Done waiting for pending navigations. Status: ok
+[1597162437.039][INFO]: Waiting for pending navigations...
+[1597162437.040][INFO]: Done waiting for pending navigations. Status: ok
+[1597162437.040][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAC0AAAAY8CAYAAACWeA4aAAABLGlDQ1BTa2lhAAAokX2Ru0oDQRSGP4ONF1BQMYXFlmm8JJFVQYts1CB2iUK022yWICZx2axora34BoKVha2tD5BesRKs7AXBdv0nKTYg8RzmzDf/mduZgVQaWWoaWu0oLJccq3p0bDFgrtcJGG4j8..."
+[1597162437.343][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] COMMAND Quit {
+
+}
+[1597162437.497][INFO]: [86eb5c36b1441cfe9fc882753d9dd653] RESPONSE Quit

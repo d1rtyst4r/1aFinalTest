@@ -1,0 +1,179 @@
+[1597163152.216][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 29202
+[1597163152.216][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597163152.466][INFO]: [6e3fb7c7ca17fc762004c5d343d7cf8b] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597163152.467][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597163152.467][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597163152.467][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/nw/1tpsl9sd4dn4yx87qmrmbrv00000gn/T/.com.google.Chrome.yY5N1T data:,
+[1597163153.275][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597163153.281][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597163153.328][INFO]: [6e3fb7c7ca17fc762004c5d343d7cf8b] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.105",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/nw/1tpsl9sd4dn4yx87qmrmbrv00000gn/T/.com.google.Chrome.yY5N1T"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57318"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "6e3fb7c7ca17fc762004c5d343d7cf8b"
+}
+[1597163153.455][INFO]: [6e3fb7c7ca17fc762004c5d343d7cf8b] COMMAND MaximizeWindow {
+
+}
+[1597163153.455][INFO]: Waiting for pending navigations...
+[1597163153.456][INFO]: Done waiting for pending navigations. Status: ok
+[1597163153.567][INFO]: Waiting for pending navigations...
+[1597163153.569][INFO]: Done waiting for pending navigations. Status: ok
+[1597163153.569][INFO]: [6e3fb7c7ca17fc762004c5d343d7cf8b] RESPONSE MaximizeWindow {
+   "height": 877,
+   "width": 1440,
+   "x": 0,
+   "y": 23
+}
+[1597163153.579][INFO]: [6e3fb7c7ca17fc762004c5d343d7cf8b] COMMAND Navigate {
+   "url": "https://1a.lv"
+}
+[1597163153.579][INFO]: Waiting for pending navigations...
+[1597163153.592][INFO]: Done waiting for pending navigations. Status: ok
+[1597163154.484][INFO]: Waiting for pending navigations...
+[1597163156.402][INFO]: Done waiting for pending navigations. Status: ok
+[1597163156.402][INFO]: [6e3fb7c7ca17fc762004c5d343d7cf8b] RESPONSE Navigate
+[1597163156.458][INFO]: [6e3fb7c7ca17fc762004c5d343d7cf8b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "sn-suggest-input autocomplete main-search-input"
+}
+[1597163156.459][INFO]: Waiting for pending navigations...
+[1597163156.474][INFO]: Done waiting for pending navigations. Status: ok
+[1597163156.541][INFO]: Waiting for pending navigations...
+[1597163157.458][INFO]: Done waiting for pending navigations. Status: ok
+[1597163157.458][INFO]: [6e3fb7c7ca17fc762004c5d343d7cf8b] RESPONSE FindElement ERROR invalid selector: Unable to locate an element with the xpath expression sn-suggest-input autocomplete main-search-input because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'sn-suggest-input autocomplete main-search-input' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.105)
+[1597163157.577][INFO]: [6e3fb7c7ca17fc762004c5d343d7cf8b] COMMAND Quit {
+
+}
+[1597163157.636][INFO]: [6e3fb7c7ca17fc762004c5d343d7cf8b] RESPONSE Quit

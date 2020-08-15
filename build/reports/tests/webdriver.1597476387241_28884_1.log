@@ -1,0 +1,334 @@
+[1597476392.373][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 27472
+[1597476392.373][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597476392.616][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597476392.617][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597476392.617][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597476392.618][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/nw/1tpsl9sd4dn4yx87qmrmbrv00000gn/T/.com.google.Chrome.iwslS7 data:,
+[1597476393.368][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476393.376][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476393.604][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/nw/1tpsl9sd4dn4yx87qmrmbrv00000gn/T/.com.google.Chrome.iwslS7"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62754"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "174a259a7a07fc8953b9f6fe0e118615"
+}
+[1597476393.746][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND MaximizeWindow {
+
+}
+[1597476393.746][INFO]: Waiting for pending navigations...
+[1597476393.748][INFO]: Done waiting for pending navigations. Status: ok
+[1597476393.880][INFO]: Waiting for pending navigations...
+[1597476393.886][INFO]: Done waiting for pending navigations. Status: ok
+[1597476393.886][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE MaximizeWindow {
+   "height": 877,
+   "width": 1440,
+   "x": 0,
+   "y": 23
+}
+[1597476393.896][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND Navigate {
+   "url": "https://1a.lv"
+}
+[1597476393.896][INFO]: Waiting for pending navigations...
+[1597476393.897][INFO]: Done waiting for pending navigations. Status: ok
+[1597476394.434][INFO]: Waiting for pending navigations...
+[1597476395.512][INFO]: Done waiting for pending navigations. Status: ok
+[1597476395.512][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE Navigate
+[1597476395.562][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476395.562][INFO]: Waiting for pending navigations...
+[1597476395.563][INFO]: Done waiting for pending navigations. Status: ok
+[1597476395.572][INFO]: Waiting for pending navigations...
+[1597476395.573][INFO]: Done waiting for pending navigations. Status: ok
+[1597476395.573][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597476395.802][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476395.802][INFO]: Waiting for pending navigations...
+[1597476395.803][INFO]: Done waiting for pending navigations. Status: ok
+[1597476395.808][INFO]: Waiting for pending navigations...
+[1597476395.808][INFO]: Done waiting for pending navigations. Status: ok
+[1597476395.808][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597476396.019][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476396.019][INFO]: Waiting for pending navigations...
+[1597476396.020][INFO]: Done waiting for pending navigations. Status: ok
+[1597476396.024][INFO]: Waiting for pending navigations...
+[1597476396.025][INFO]: Done waiting for pending navigations. Status: ok
+[1597476396.025][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597476396.234][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476396.234][INFO]: Waiting for pending navigations...
+[1597476396.235][INFO]: Done waiting for pending navigations. Status: ok
+[1597476396.239][INFO]: Waiting for pending navigations...
+[1597476396.239][INFO]: Done waiting for pending navigations. Status: ok
+[1597476396.239][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597476396.451][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476396.452][INFO]: Waiting for pending navigations...
+[1597476396.453][INFO]: Done waiting for pending navigations. Status: ok
+[1597476396.457][INFO]: Waiting for pending navigations...
+[1597476396.458][INFO]: Done waiting for pending navigations. Status: ok
+[1597476396.458][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597476396.668][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476396.668][INFO]: Waiting for pending navigations...
+[1597476396.669][INFO]: Done waiting for pending navigations. Status: ok
+[1597476396.674][INFO]: Waiting for pending navigations...
+[1597476396.675][INFO]: Done waiting for pending navigations. Status: ok
+[1597476396.675][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597476396.885][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476396.885][INFO]: Waiting for pending navigations...
+[1597476396.886][INFO]: Done waiting for pending navigations. Status: ok
+[1597476396.891][INFO]: Waiting for pending navigations...
+[1597476396.891][INFO]: Done waiting for pending navigations. Status: ok
+[1597476396.891][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597476397.102][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476397.102][INFO]: Waiting for pending navigations...
+[1597476397.103][INFO]: Done waiting for pending navigations. Status: ok
+[1597476397.109][INFO]: Waiting for pending navigations...
+[1597476397.109][INFO]: Done waiting for pending navigations. Status: ok
+[1597476397.109][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597476397.318][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476397.319][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476397.322][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476397.531][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476397.532][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476397.535][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476397.743][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476397.744][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476397.747][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476397.957][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476397.958][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476397.963][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476398.171][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476398.171][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476398.174][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476398.385][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476398.385][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476398.389][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476398.597][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476398.597][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476398.600][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476398.813][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476398.815][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476398.818][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476399.026][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476399.027][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476399.030][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476399.237][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476399.237][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476399.240][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476399.447][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597476399.448][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476399.450][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476399.663][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597476399.664][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476399.666][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE ExecuteScript ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597476399.669][INFO]: [174a259a7a07fc8953b9f6fe0e118615] COMMAND Screenshot {
+
+}
+[1597476399.670][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597476399.673][INFO]: [174a259a7a07fc8953b9f6fe0e118615] RESPONSE Screenshot ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)

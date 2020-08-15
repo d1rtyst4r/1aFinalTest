@@ -1,0 +1,315 @@
+[1597481882.287][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 46067
+[1597481882.287][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597481882.520][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597481882.521][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/ruslansjasinovics/Documents/OneAFinalTest/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597481882.521][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597481882.522][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/nw/1tpsl9sd4dn4yx87qmrmbrv00000gn/T/.com.google.Chrome.nVQh7L data:,
+[1597481883.605][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597481883.610][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597481883.887][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/nw/1tpsl9sd4dn4yx87qmrmbrv00000gn/T/.com.google.Chrome.nVQh7L"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55436"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "1aaaa3474c0e482386f16b641182c47a"
+}
+[1597481884.009][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND MaximizeWindow {
+
+}
+[1597481884.009][INFO]: Waiting for pending navigations...
+[1597481884.009][INFO]: Done waiting for pending navigations. Status: ok
+[1597481884.152][INFO]: Waiting for pending navigations...
+[1597481884.154][INFO]: Done waiting for pending navigations. Status: ok
+[1597481884.154][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE MaximizeWindow {
+   "height": 877,
+   "width": 1440,
+   "x": 0,
+   "y": 23
+}
+[1597481884.172][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND Navigate {
+   "url": "https://1a.lv"
+}
+[1597481884.172][INFO]: Waiting for pending navigations...
+[1597481884.173][INFO]: Done waiting for pending navigations. Status: ok
+[1597481884.595][INFO]: Waiting for pending navigations...
+[1597481890.022][INFO]: Done waiting for pending navigations. Status: ok
+[1597481890.022][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE Navigate
+[1597481890.094][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481890.094][INFO]: Waiting for pending navigations...
+[1597481890.095][INFO]: Done waiting for pending navigations. Status: ok
+[1597481890.103][INFO]: Waiting for pending navigations...
+[1597481890.104][INFO]: Done waiting for pending navigations. Status: ok
+[1597481890.104][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481890.332][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481890.402][INFO]: Waiting for pending navigations...
+[1597481891.584][INFO]: Done waiting for pending navigations. Status: ok
+[1597481891.591][INFO]: Waiting for pending navigations...
+[1597481891.592][INFO]: Done waiting for pending navigations. Status: ok
+[1597481891.592][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481891.800][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481891.800][INFO]: Waiting for pending navigations...
+[1597481891.870][INFO]: Done waiting for pending navigations. Status: ok
+[1597481891.899][INFO]: Waiting for pending navigations...
+[1597481891.903][INFO]: Done waiting for pending navigations. Status: ok
+[1597481891.903][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481892.113][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481892.113][INFO]: Waiting for pending navigations...
+[1597481892.116][INFO]: Done waiting for pending navigations. Status: ok
+[1597481892.128][INFO]: Waiting for pending navigations...
+[1597481892.129][INFO]: Done waiting for pending navigations. Status: ok
+[1597481892.129][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481892.337][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481892.337][INFO]: Waiting for pending navigations...
+[1597481892.338][INFO]: Done waiting for pending navigations. Status: ok
+[1597481892.342][INFO]: Waiting for pending navigations...
+[1597481892.343][INFO]: Done waiting for pending navigations. Status: ok
+[1597481892.343][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481892.553][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481892.553][INFO]: Waiting for pending navigations...
+[1597481892.554][INFO]: Done waiting for pending navigations. Status: ok
+[1597481892.559][INFO]: Waiting for pending navigations...
+[1597481892.560][INFO]: Done waiting for pending navigations. Status: ok
+[1597481892.560][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481892.768][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481892.768][INFO]: Waiting for pending navigations...
+[1597481892.769][INFO]: Done waiting for pending navigations. Status: ok
+[1597481892.774][INFO]: Waiting for pending navigations...
+[1597481892.775][INFO]: Done waiting for pending navigations. Status: ok
+[1597481892.775][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481892.986][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481892.986][INFO]: Waiting for pending navigations...
+[1597481892.988][INFO]: Done waiting for pending navigations. Status: ok
+[1597481892.993][INFO]: Waiting for pending navigations...
+[1597481892.993][INFO]: Done waiting for pending navigations. Status: ok
+[1597481892.993][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481893.201][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481893.201][INFO]: Waiting for pending navigations...
+[1597481893.202][INFO]: Done waiting for pending navigations. Status: ok
+[1597481893.207][INFO]: Waiting for pending navigations...
+[1597481893.208][INFO]: Done waiting for pending navigations. Status: ok
+[1597481893.208][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481893.418][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481893.419][INFO]: Waiting for pending navigations...
+[1597481893.419][INFO]: Done waiting for pending navigations. Status: ok
+[1597481893.424][INFO]: Waiting for pending navigations...
+[1597481893.425][INFO]: Done waiting for pending navigations. Status: ok
+[1597481893.425][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481893.633][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481893.633][INFO]: Waiting for pending navigations...
+[1597481893.634][INFO]: Done waiting for pending navigations. Status: ok
+[1597481893.639][INFO]: Waiting for pending navigations...
+[1597481893.640][INFO]: Done waiting for pending navigations. Status: ok
+[1597481893.640][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481893.852][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481893.852][INFO]: Waiting for pending navigations...
+[1597481893.853][INFO]: Done waiting for pending navigations. Status: ok
+[1597481893.859][INFO]: Waiting for pending navigations...
+[1597481893.859][INFO]: Done waiting for pending navigations. Status: ok
+[1597481893.859][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481894.070][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "CybotCookiebotDialogBodyButtonAccept.c-button"
+}
+[1597481894.070][INFO]: Waiting for pending navigations...
+[1597481894.071][INFO]: Done waiting for pending navigations. Status: ok
+[1597481894.076][INFO]: Waiting for pending navigations...
+[1597481894.077][INFO]: Done waiting for pending navigations. Status: ok
+[1597481894.077][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"CybotCookiebotDialogBodyButtonAccept.c-button"}
+  (Session info: chrome=84.0.4147.125)
+[1597481894.295][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597481894.295][INFO]: Waiting for pending navigations...
+[1597481894.296][INFO]: Done waiting for pending navigations. Status: ok
+[1597481894.334][INFO]: Waiting for pending navigations...
+[1597481894.335][INFO]: Done waiting for pending navigations. Status: ok
+[1597481894.335][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE ExecuteScript "\u003Chtml default-lang=\"lv\" lang=\"lv\" class=\" no-touch\">\u003Chead>\n\u003Cmeta theme=\"1a\">\n\u003Cmeta charset=\"utf-8\">\n\u003Cmeta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\">\n\u003Cscript type=\"text/javascript\" src=\"https:/..."
+[1597481894.456][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND Screenshot {
+
+}
+[1597481894.456][INFO]: Waiting for pending navigations...
+[1597481894.457][INFO]: Done waiting for pending navigations. Status: ok
+[1597481895.081][INFO]: Waiting for pending navigations...
+[1597481895.082][INFO]: Done waiting for pending navigations. Status: ok
+[1597481895.082][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAC0AAAAY8CAYAAACWeA4aAAABLGlDQ1BTa2lhAAAokX2Ru0oDQRSGP4ONF1BQMYXFlmm8JJFVQYts1CB2iUK022yWICZx2axora34BoKVha2tD5BesRKs7AXBdv0nKTYg8RzmzDf/mduZgVQaWWoaWu0oLJccq3p0bDFgrtcJGG4j8..."
+[1597481895.218][INFO]: [1aaaa3474c0e482386f16b641182c47a] COMMAND Quit {
+
+}
+[1597481895.373][INFO]: [1aaaa3474c0e482386f16b641182c47a] RESPONSE Quit
